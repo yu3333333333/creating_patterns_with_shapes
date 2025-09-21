@@ -1,4 +1,4 @@
-# 用形狀創作圖案 🐯
+# Creating Patterns With Shapes 🐯
 
 這個專案紀錄了我使用 **SwiftUI** 以各種基本形狀（矩形、圓形、橢圓、圓角矩形、貝茲曲線等）組合出卡通角色 TAMTAM（眈眈） 的過程。
 
@@ -19,12 +19,8 @@
 ## 🚀 使用方式
 
 1. 在 SwiftUI 專案中建立一個新 View，將角色繪製程式碼放入。
-2. 將角色 View 加入你的畫面中，例如：
-    ZStack {
-        Color.backgroundPink.ignoresSafeArea()
-        TigerView(size: 300)
-    }
-3. 調整顏色、大小、座標或控制點，創造屬於你的版本。
+2. 將角色 View 加入你的畫面中。
+4. 調整顏色、大小、座標或控制點，創造屬於你的版本。
    
 ## 💡 延伸應用
 - 以相同方法創作其他卡通角色或吉祥物
